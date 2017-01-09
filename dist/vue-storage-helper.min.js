@@ -1,5 +1,5 @@
 /*!
- * vue-storage-helper v1.0.0
+ * vue-storage-helper v1.0.2
  * (c) 2017 Matteo Gabriele
  * Released under the ISC License.
  */
