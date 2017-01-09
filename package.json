@@ -1,7 +1,7 @@
 {
   "name": "vue-storage-helper",
   "version": "1.0.1",
-  "description": "",
+  "description": "A storage-helper wrapper for Vue",
   "main": "dist/vue-storage-helper.js",
   "scripts": {
     "commit": "git-cz",
