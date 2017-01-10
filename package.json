@@ -7,8 +7,6 @@
     "commit": "git-cz",
     "dev": "webpack --config config/dev.js -w",
     "build": "node config/build.js",
-    "test": "karma start ./test/karma.config.js --singleRun",
-    "test:watch": "karma start ./test/karma.config.js",
     "prepublish": "node config/build.js"
   },
   "author": {
