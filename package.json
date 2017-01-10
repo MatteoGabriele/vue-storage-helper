@@ -1,6 +1,6 @@
 {
   "name": "vue-storage-helper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A storage-helper wrapper for Vue",
   "main": "dist/vue-storage-helper.js",
   "scripts": {
