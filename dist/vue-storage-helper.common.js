@@ -23,7 +23,7 @@ function install(Vue) {
   Vue.prototype.$setItem = storageHelper__default.setItem;
   Vue.prototype.$getItem = storageHelper__default.getItem;
   Vue.prototype.$removeItem = storageHelper__default.removeItem;
-  Vue.prototype.$clear = storageHelper__default.clear;
+  Vue.prototype.$clearItems = storageHelper__default.clear;
 }
 
 module.exports = install;

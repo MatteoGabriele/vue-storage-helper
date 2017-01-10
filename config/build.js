@@ -64,7 +64,6 @@ rollup.rollup({
     }).code
     return write('dist/' + pack.name + '.min.js', minified)
   })
-  .then(zip)
 })
 .catch(logError)
 
@@ -83,18 +82,6 @@ function write (dest, code) {
       if (err) return reject(err)
       console.log(blue(dest) + ' ' + getSize(code))
       resolve()
-    })
-  })
-}
-
-function zip () {
-  return new Promise(function (resolve, reject) {
-    fs.readFile('dist/' + pack.name + '.min.js', function (err, buf) {
-      if (err) return reject(err)
-      zlib.gzip(buf, function (err, buf) {
-        if (err) return reject(err)
-        write('dist/' + pack.name + '.min.js.gz', buf).then(resolve)
-      })
     })
   })
 }
