@@ -28,7 +28,7 @@ const component = new Vue({
       this.$removeItem('foo')
     },
     clearAllStoredItems () {
-      this.$clear()
+      this.$clearItems()
     }
   }
 })

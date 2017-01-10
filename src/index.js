@@ -11,5 +11,5 @@ export default function install (Vue, options = {}) {
   Vue.prototype.$setItem = storageHelper.setItem
   Vue.prototype.$getItem = storageHelper.getItem
   Vue.prototype.$removeItem = storageHelper.removeItem
-  Vue.prototype.$clear = storageHelper.clear
+  Vue.prototype.$clearItems = storageHelper.clear
 }
